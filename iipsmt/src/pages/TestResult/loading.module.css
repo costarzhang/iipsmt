@@ -1,0 +1,44 @@
+.pageContainer{
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    z-index: 40;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* background-clip :content-box; */
+}
+
+.bar{
+    width: 5rem;
+    height: 2px;
+    background-color: white;
+    margin-top: 0.5rem;
+    animation: loading 2s cubic-bezier(0.66, 0.01, 0.3, 0.99) infinite;
+}
+
+@keyframes loading {
+    0%{
+        width: 0rem;
+    }
+    10%{
+        width: 0rem;
+    }
+    40%{
+        width: 5rem;
+    }
+
+    60%{
+        width: 5rem;
+    }
+    90%{
+        width: 0rem;
+    }
+    100%{
+        width:0rem
+    }
+}

@@ -1,0 +1,35 @@
+html,body {
+  margin: 0;
+  height: 100%;
+  font-size: 20px;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+}
+
+@font-face{
+  font-family: 'ali-heavy';
+  font-display: swap;
+  src: url('./static/fonts/Alibaba-PuHuiTi-Heavy.ttf');
+}
+
+@font-face{
+  font-family: 'ali-medium';
+  font-display: swap;
+  src: url('./static/fonts/Alibaba-PuHuiTi-Medium.ttf');
+}
+
+@font-face{
+  font-family: 'ali-light';
+  font-display: swap;
+  src: url('./static/fonts/Alibaba-PuHuiTi-Light.ttf');
+}
+
+@media screen and (max-width:500px) {
+  html,body{
+    font-size: 10px;
+  }
+}
+

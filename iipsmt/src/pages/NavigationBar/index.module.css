@@ -1,0 +1,48 @@
+.barContainer {
+    position    : fixed;
+    z-index     : 10;
+    top         : 0;
+    margin      : 0;
+    padding-left: 0;
+    outline     : none;
+
+    display    : flex;
+    align-items: center;
+
+    background: transparent;
+    width     : 100%;
+    height    : 5rem;
+    list-style: none;
+    color     : white;
+}
+
+.barContainer li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color     : rgba(255, 255, 255, 0.541);
+    width     : 10rem;
+    padding   : 0;
+    margin    : 0;
+    cursor    : pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.barContainer li a:hover {
+    color: #fff;
+}
+
+.btn_language {
+    position: absolute;
+    cursor: pointer;
+    right   : 0;
+    margin  : 1rem;
+    color   : white !important;
+}
+
+
+.style_logo a {
+    color      : white !important;
+    font-size  : 1.8rem;
+    font-family: 'ali-heavy';
+}

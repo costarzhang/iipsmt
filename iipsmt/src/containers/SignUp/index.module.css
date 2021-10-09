@@ -1,0 +1,41 @@
+.pageContainer {
+    display       : flex;
+    flex-direction: column;
+
+    padding: 2rem;
+}
+
+.userInfo {
+    font-size: 1rem;
+    font-family: 'ali-medium';
+    color    : #777;
+}
+
+.userInput {
+    outline      : none;
+    border       : none;
+    border-bottom: 1px solid rgb(0, 122, 204);
+    color        : rgb(0, 122, 204);
+    height       : 2rem;
+    font-size    : 1rem;
+    margin       : 0 0 2rem 0;
+}
+
+input::placeholder {
+    color      : #ddd;
+    font-family: 'ali-light';
+    font-size  : 1rem;
+}
+
+.signUpButton {
+    margin       : 0.5rem 0;
+    height       : 2rem;
+    outline      : none;
+    border       : none;
+    border-radius: 0.3rem;
+    color        : #fff;
+    font-size    : 1rem;
+    cursor       : pointer;
+    background   : linear-gradient(to right, #3884b9, #105c90);
+    box-shadow   : 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,131 @@
+.pagePadding {
+    padding        : 5rem;
+    box-sizing     : border-box;
+    position       : relative;
+    width          : 100%;
+    height         : 100%;
+    background-clip: content-box;
+    /* animation   : zoomIn 0.2s 1 both; */
+}
+
+.pageContainer {
+    display           : flex;
+    flex-direction    : column;
+    align-items       : center;
+    /* justify-content: center; */
+
+    box-sizing      : border-box;
+    position        : relative;
+    width           : 100%;
+    height          : 100%;
+    background-color: rgb(255, 255, 255);
+    background-clip : content-box;
+    border-radius   : 0.5rem;
+    overflow        : hidden;
+}
+
+.fileUploadModule {
+    width      : 100%;
+    display    : flex;
+    align-items: center;
+    margin     : 0.5rem;
+
+}
+
+.fileUpload {
+    display: none;
+}
+
+.filePath {
+    /* background-color: rgb(238, 238, 238); */
+    width        : 30rem;
+    max-width    : 100%;
+    height       : 2rem;
+    line-height  : 2rem;
+    padding-left : 1rem;
+    margin-right : 0.5rem;
+    box-sizing   : border-box;
+    border-radius: 0.3rem 0 0 0.3rem;
+    flex-grow    : 1;
+}
+
+.fileUploadLable {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+
+    text-align   : center;
+    font-size    : 0.8rem;
+    width        : 9rem;
+    height       : 2rem;
+    margin-right : 0.5rem;
+    color        : white;
+    background   : rgb(20, 104, 184);
+    border-radius: 0.2rem;
+    cursor       : pointer;
+}
+
+.fileOverview {
+    width                       : 100%;
+    height                      : 100%;
+    /* border-radius            : 0.3rem; */
+    font-size                   : 0.8rem;
+    line-height                 : 1.5rem;
+    /* text-align               : center; */
+    border-top                  : 1px #eee solid;
+    word-break                  : normal;
+    /* text-overflow               : ellipsis; */
+    /*超出部分以点号代替*/
+    /* white-space              :normal; */
+    white-space                 : pre;
+    word-wrap                   : normal;
+    padding                     : 0 1rem 1rem 1rem;
+    box-sizing                  : border-box;
+    overflow-y                  : scroll;
+    overflow-x                  : scroll;
+    font-family                 : 'ali-medium';
+    /* word-wrap                : break-word; */
+    /* background-color         : rgb(238, 238, 238); */
+}
+
+.modelClassifying {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+
+    width           : 9rem;
+    height          : 2rem;
+    background-color: rgb(38, 156, 44);
+    outline         : none;
+    border          : none;
+    font-size       : 0.8rem;
+    color           : white;
+    margin-right    : 0.5rem;
+    border-radius   : 0.2rem;
+    font-family     : 'ali-light';
+    cursor          : pointer;
+}
+
+.modelPredicting {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+
+    width           : 9rem;
+    height          : 2rem;
+    background-color: rgb(223, 157, 16);
+    outline         : none;
+    border          : none;
+    font-size       : 0.8rem;
+    color           : white;
+    margin-right    : 0.5rem;
+    border-radius   : 0.2rem;
+    font-family     : 'ali-light';
+    cursor          : pointer;
+}
+
+.btnIcon {
+    width       : 0.8rem;
+    height      : auto;
+    margin-right: 0.4rem;
+}

@@ -1,0 +1,69 @@
+@keyframes brighter {
+    100% {
+        color: #fff;
+        text-shadow: 0 10px 10px rgba(0, 0, 0, 0.151);
+    }
+    0%{
+
+    }
+}
+
+@keyframes dimmer {
+    100% {
+        /* color: rgba(255, 255, 255, 0.541); */
+    }
+
+    0% {
+        color: #fff;
+    }
+}
+
+@keyframes blur_background{
+    0%{
+        /* backdrop-filter: blur(1px); */
+        filter: opacity(0%);
+    }
+    100%{
+        backdrop-filter: blur(5px);
+        filter: opacity(100%);
+    }
+}
+@keyframes blur_background_dismiss{
+    100%{
+        filter: opacity(0%);
+    }
+    0%{
+        backdrop-filter: blur(5px);
+        filter: opacity(100%);
+    }
+}
+.dynamic_li{
+    animation: dimmer 0.2s both ease-in-out 1 ;
+}
+
+.dynamic_li:hover{
+    animation: brighter 0.2s both ease-in-out 1 ;
+}
+
+.blur_background{
+    animation: blur_background both ease-in-out 1;
+    animation-duration: 0.2s;
+}
+
+.blur_background_dismiss{
+    animation: blur_background_dismiss both 0.2s ease-in-out 1;
+}
+
+.zoomIn{
+    animation: zoomIn 0.2s 1 both;
+}
+
+@keyframes zoomIn {
+    0%{
+        filter: opacity(0);
+    }
+    100%{
+        filter:opacity(1)
+    }
+}
+
